@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 0fbe01630166cd84dbf2db4db8c41c88
-timeCreated: 1434499804
+timeCreated: 1489036554
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -112,12 +112,12 @@ TextureImporter:
     21300210: spritesheet_ground_106
     21300212: spritesheet_ground_107
     21300214: spritesheet_ground_108
-  serializedVersion: 2
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
     mipMapFadeDistanceStart: 1
@@ -125,14 +125,12 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 8
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 2048
@@ -143,41 +141,94 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 128
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: grassRight
+    - serializedVersion: 2
+      name: grassRight
       rect:
         serializedVersion: 2
         x: 0
         y: 1920
         width: 128
         height: 128
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: grassCenter
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: grassCenter
       rect:
         serializedVersion: 2
         x: 128
         y: 1920
         width: 128
         height: 128
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_2
       rect:
         serializedVersion: 2
         x: 256
@@ -185,9 +236,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_3
       rect:
         serializedVersion: 2
         x: 384
@@ -195,9 +249,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_4
       rect:
         serializedVersion: 2
         x: 512
@@ -205,9 +262,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_5
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_5
       rect:
         serializedVersion: 2
         x: 640
@@ -215,9 +275,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_6
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_6
       rect:
         serializedVersion: 2
         x: 768
@@ -225,19 +288,25 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: grassMiddle
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: grassMiddle
       rect:
         serializedVersion: 2
         x: 0
         y: 1792
         width: 128
         height: 128
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_8
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_8
       rect:
         serializedVersion: 2
         x: 128
@@ -245,9 +314,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_9
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_9
       rect:
         serializedVersion: 2
         x: 256
@@ -255,9 +327,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_10
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_10
       rect:
         serializedVersion: 2
         x: 384
@@ -265,9 +340,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_11
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_11
       rect:
         serializedVersion: 2
         x: 512
@@ -275,9 +353,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_12
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_12
       rect:
         serializedVersion: 2
         x: 640
@@ -285,9 +366,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_13
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_13
       rect:
         serializedVersion: 2
         x: 768
@@ -295,19 +379,25 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: grassLeft
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: grassLeft
       rect:
         serializedVersion: 2
         x: 0
         y: 1664
         width: 128
         height: 128
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_15
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_15
       rect:
         serializedVersion: 2
         x: 128
@@ -315,9 +405,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_16
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_16
       rect:
         serializedVersion: 2
         x: 256
@@ -325,9 +418,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_17
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_17
       rect:
         serializedVersion: 2
         x: 384
@@ -335,9 +431,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_18
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_18
       rect:
         serializedVersion: 2
         x: 512
@@ -345,9 +444,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_19
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_19
       rect:
         serializedVersion: 2
         x: 640
@@ -355,9 +457,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_20
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_20
       rect:
         serializedVersion: 2
         x: 768
@@ -365,9 +470,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_21
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_21
       rect:
         serializedVersion: 2
         x: 0
@@ -375,9 +483,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_22
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_22
       rect:
         serializedVersion: 2
         x: 128
@@ -385,9 +496,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_23
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_23
       rect:
         serializedVersion: 2
         x: 256
@@ -395,9 +509,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_24
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_24
       rect:
         serializedVersion: 2
         x: 384
@@ -405,9 +522,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_25
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_25
       rect:
         serializedVersion: 2
         x: 512
@@ -415,9 +535,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_26
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_26
       rect:
         serializedVersion: 2
         x: 640
@@ -425,9 +548,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_27
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_27
       rect:
         serializedVersion: 2
         x: 768
@@ -435,9 +561,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_28
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_28
       rect:
         serializedVersion: 2
         x: 0
@@ -445,9 +574,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_29
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_29
       rect:
         serializedVersion: 2
         x: 128
@@ -455,9 +587,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_30
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_30
       rect:
         serializedVersion: 2
         x: 256
@@ -465,9 +600,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_31
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_31
       rect:
         serializedVersion: 2
         x: 384
@@ -475,9 +613,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_32
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_32
       rect:
         serializedVersion: 2
         x: 512
@@ -485,9 +626,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_33
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_33
       rect:
         serializedVersion: 2
         x: 640
@@ -495,9 +639,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_34
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_34
       rect:
         serializedVersion: 2
         x: 768
@@ -505,9 +652,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_35
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_35
       rect:
         serializedVersion: 2
         x: 0
@@ -515,9 +665,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_36
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_36
       rect:
         serializedVersion: 2
         x: 128
@@ -525,9 +678,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_37
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_37
       rect:
         serializedVersion: 2
         x: 256
@@ -535,9 +691,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_38
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_38
       rect:
         serializedVersion: 2
         x: 384
@@ -545,9 +704,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_39
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_39
       rect:
         serializedVersion: 2
         x: 512
@@ -555,9 +717,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_40
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_40
       rect:
         serializedVersion: 2
         x: 640
@@ -565,9 +730,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_41
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_41
       rect:
         serializedVersion: 2
         x: 768
@@ -575,9 +743,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_42
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_42
       rect:
         serializedVersion: 2
         x: 0
@@ -585,9 +756,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_43
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_43
       rect:
         serializedVersion: 2
         x: 128
@@ -595,9 +769,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_44
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_44
       rect:
         serializedVersion: 2
         x: 256
@@ -605,9 +782,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_45
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_45
       rect:
         serializedVersion: 2
         x: 384
@@ -615,9 +795,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_46
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_46
       rect:
         serializedVersion: 2
         x: 512
@@ -625,9 +808,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_47
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_47
       rect:
         serializedVersion: 2
         x: 640
@@ -635,9 +821,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_48
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_48
       rect:
         serializedVersion: 2
         x: 768
@@ -645,9 +834,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_49
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_49
       rect:
         serializedVersion: 2
         x: 0
@@ -655,9 +847,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_50
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_50
       rect:
         serializedVersion: 2
         x: 128
@@ -665,9 +860,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_51
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_51
       rect:
         serializedVersion: 2
         x: 256
@@ -675,9 +873,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_52
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_52
       rect:
         serializedVersion: 2
         x: 384
@@ -685,9 +886,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_53
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_53
       rect:
         serializedVersion: 2
         x: 512
@@ -695,9 +899,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_54
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_54
       rect:
         serializedVersion: 2
         x: 640
@@ -705,9 +912,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_55
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_55
       rect:
         serializedVersion: 2
         x: 768
@@ -715,9 +925,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_56
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_56
       rect:
         serializedVersion: 2
         x: 0
@@ -725,9 +938,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_57
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_57
       rect:
         serializedVersion: 2
         x: 128
@@ -735,9 +951,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_58
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_58
       rect:
         serializedVersion: 2
         x: 256
@@ -745,9 +964,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_59
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_59
       rect:
         serializedVersion: 2
         x: 384
@@ -755,9 +977,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_60
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_60
       rect:
         serializedVersion: 2
         x: 512
@@ -765,9 +990,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_61
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_61
       rect:
         serializedVersion: 2
         x: 640
@@ -775,9 +1003,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_62
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_62
       rect:
         serializedVersion: 2
         x: 768
@@ -785,9 +1016,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_63
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_63
       rect:
         serializedVersion: 2
         x: 0
@@ -795,9 +1029,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_64
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_64
       rect:
         serializedVersion: 2
         x: 128
@@ -805,9 +1042,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_65
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_65
       rect:
         serializedVersion: 2
         x: 256
@@ -815,9 +1055,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_66
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_66
       rect:
         serializedVersion: 2
         x: 384
@@ -825,9 +1068,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_67
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_67
       rect:
         serializedVersion: 2
         x: 512
@@ -835,9 +1081,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_68
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_68
       rect:
         serializedVersion: 2
         x: 640
@@ -845,9 +1094,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_69
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_69
       rect:
         serializedVersion: 2
         x: 768
@@ -855,9 +1107,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_70
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_70
       rect:
         serializedVersion: 2
         x: 0
@@ -865,9 +1120,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_71
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_71
       rect:
         serializedVersion: 2
         x: 128
@@ -875,9 +1133,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_72
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_72
       rect:
         serializedVersion: 2
         x: 256
@@ -885,9 +1146,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_73
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_73
       rect:
         serializedVersion: 2
         x: 384
@@ -895,9 +1159,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_74
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_74
       rect:
         serializedVersion: 2
         x: 512
@@ -905,9 +1172,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_75
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_75
       rect:
         serializedVersion: 2
         x: 640
@@ -915,9 +1185,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_76
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_76
       rect:
         serializedVersion: 2
         x: 768
@@ -925,19 +1198,25 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: grassCliff_right
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: grassCliff_right
       rect:
         serializedVersion: 2
         x: 0
         y: 512
         width: 128
         height: 128
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_78
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_78
       rect:
         serializedVersion: 2
         x: 128
@@ -945,9 +1224,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_79
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_79
       rect:
         serializedVersion: 2
         x: 256
@@ -955,9 +1237,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_80
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_80
       rect:
         serializedVersion: 2
         x: 384
@@ -965,9 +1250,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_81
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_81
       rect:
         serializedVersion: 2
         x: 512
@@ -975,9 +1263,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_82
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_82
       rect:
         serializedVersion: 2
         x: 640
@@ -985,9 +1276,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_83
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_83
       rect:
         serializedVersion: 2
         x: 768
@@ -995,19 +1289,25 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: grassCliff_left
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: grassCliff_left
       rect:
         serializedVersion: 2
         x: 0
         y: 384
         width: 128
         height: 128
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_85
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_85
       rect:
         serializedVersion: 2
         x: 128
@@ -1015,9 +1315,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_86
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_86
       rect:
         serializedVersion: 2
         x: 256
@@ -1025,9 +1328,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_87
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_87
       rect:
         serializedVersion: 2
         x: 384
@@ -1035,9 +1341,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_88
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_88
       rect:
         serializedVersion: 2
         x: 512
@@ -1045,9 +1354,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_89
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_89
       rect:
         serializedVersion: 2
         x: 640
@@ -1055,9 +1367,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_91
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_91
       rect:
         serializedVersion: 2
         x: 0
@@ -1065,9 +1380,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_92
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_92
       rect:
         serializedVersion: 2
         x: 128
@@ -1075,9 +1393,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_93
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_93
       rect:
         serializedVersion: 2
         x: 256
@@ -1085,9 +1406,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_94
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_94
       rect:
         serializedVersion: 2
         x: 384
@@ -1095,9 +1419,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_95
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_95
       rect:
         serializedVersion: 2
         x: 512
@@ -1105,9 +1432,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_96
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_96
       rect:
         serializedVersion: 2
         x: 640
@@ -1115,9 +1445,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_97
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_97
       rect:
         serializedVersion: 2
         x: 0
@@ -1125,9 +1458,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_98
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_98
       rect:
         serializedVersion: 2
         x: 128
@@ -1135,9 +1471,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_99
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_99
       rect:
         serializedVersion: 2
         x: 256
@@ -1145,9 +1484,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_100
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_100
       rect:
         serializedVersion: 2
         x: 384
@@ -1155,9 +1497,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_101
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_101
       rect:
         serializedVersion: 2
         x: 512
@@ -1165,9 +1510,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_102
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_102
       rect:
         serializedVersion: 2
         x: 640
@@ -1175,9 +1523,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_103
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_103
       rect:
         serializedVersion: 2
         x: 0
@@ -1185,9 +1536,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_104
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_104
       rect:
         serializedVersion: 2
         x: 128
@@ -1195,9 +1549,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_105
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_105
       rect:
         serializedVersion: 2
         x: 256
@@ -1205,9 +1562,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_106
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_106
       rect:
         serializedVersion: 2
         x: 384
@@ -1215,9 +1575,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_107
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_107
       rect:
         serializedVersion: 2
         x: 512
@@ -1225,9 +1588,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_ground_108
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_108
       rect:
         serializedVersion: 2
         x: 640
@@ -1235,8 +1601,11 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

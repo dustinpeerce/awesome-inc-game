@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 0ddc8180bcfecea4c8290d7b17da35ee
-timeCreated: 1437759867
+timeCreated: 1489042250
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -182,12 +182,12 @@ TextureImporter:
     21300350: MaleSpriteSheet - AwesomeInc_175
     21300352: MaleSpriteSheet - AwesomeInc_176
     21300354: MaleSpriteSheet - AwesomeInc_177
-  serializedVersion: 2
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
     mipMapFadeDistanceStart: 1
@@ -195,39 +195,84 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 8
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -2
   maxTextureSize: 2048
   textureSettings:
-    filterMode: 1
+    filterMode: 0
     aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 50
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: 2
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: 2
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: 2
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: 2
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: 2
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: MaleSpriteSheet - AwesomeInc_0
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_0
       rect:
         serializedVersion: 2
         x: 0
@@ -235,9 +280,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_1
       rect:
         serializedVersion: 2
         x: 64
@@ -245,9 +293,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_2
       rect:
         serializedVersion: 2
         x: 128
@@ -255,9 +306,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_3
       rect:
         serializedVersion: 2
         x: 192
@@ -265,9 +319,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_4
       rect:
         serializedVersion: 2
         x: 256
@@ -275,9 +332,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_5
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_5
       rect:
         serializedVersion: 2
         x: 320
@@ -285,9 +345,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_6
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_6
       rect:
         serializedVersion: 2
         x: 384
@@ -295,9 +358,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_7
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_7
       rect:
         serializedVersion: 2
         x: 0
@@ -305,9 +371,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_8
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_8
       rect:
         serializedVersion: 2
         x: 64
@@ -315,9 +384,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_9
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_9
       rect:
         serializedVersion: 2
         x: 128
@@ -325,9 +397,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_10
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_10
       rect:
         serializedVersion: 2
         x: 192
@@ -335,9 +410,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_11
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_11
       rect:
         serializedVersion: 2
         x: 256
@@ -345,9 +423,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_12
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_12
       rect:
         serializedVersion: 2
         x: 320
@@ -355,9 +436,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_13
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_13
       rect:
         serializedVersion: 2
         x: 384
@@ -365,9 +449,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_14
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_14
       rect:
         serializedVersion: 2
         x: 0
@@ -375,9 +462,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_15
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_15
       rect:
         serializedVersion: 2
         x: 64
@@ -385,9 +475,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_16
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_16
       rect:
         serializedVersion: 2
         x: 128
@@ -395,9 +488,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_17
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_17
       rect:
         serializedVersion: 2
         x: 192
@@ -405,9 +501,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_18
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_18
       rect:
         serializedVersion: 2
         x: 256
@@ -415,9 +514,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_19
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_19
       rect:
         serializedVersion: 2
         x: 320
@@ -425,9 +527,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_20
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_20
       rect:
         serializedVersion: 2
         x: 384
@@ -435,9 +540,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_21
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_21
       rect:
         serializedVersion: 2
         x: 0
@@ -445,9 +553,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_22
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_22
       rect:
         serializedVersion: 2
         x: 64
@@ -455,9 +566,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_23
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_23
       rect:
         serializedVersion: 2
         x: 128
@@ -465,9 +579,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_24
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_24
       rect:
         serializedVersion: 2
         x: 192
@@ -475,9 +592,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_25
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_25
       rect:
         serializedVersion: 2
         x: 256
@@ -485,9 +605,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_26
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_26
       rect:
         serializedVersion: 2
         x: 320
@@ -495,9 +618,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_27
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_27
       rect:
         serializedVersion: 2
         x: 384
@@ -505,9 +631,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_28
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_28
       rect:
         serializedVersion: 2
         x: 0
@@ -515,9 +644,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_29
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_29
       rect:
         serializedVersion: 2
         x: 64
@@ -525,9 +657,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_30
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_30
       rect:
         serializedVersion: 2
         x: 128
@@ -535,9 +670,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_31
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_31
       rect:
         serializedVersion: 2
         x: 192
@@ -545,9 +683,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_32
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_32
       rect:
         serializedVersion: 2
         x: 256
@@ -555,9 +696,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_33
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_33
       rect:
         serializedVersion: 2
         x: 320
@@ -565,9 +709,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_34
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_34
       rect:
         serializedVersion: 2
         x: 384
@@ -575,9 +722,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_35
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_35
       rect:
         serializedVersion: 2
         x: 448
@@ -585,9 +735,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_36
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_36
       rect:
         serializedVersion: 2
         x: 0
@@ -595,9 +748,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_37
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_37
       rect:
         serializedVersion: 2
         x: 64
@@ -605,9 +761,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_38
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_38
       rect:
         serializedVersion: 2
         x: 128
@@ -615,9 +774,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_39
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_39
       rect:
         serializedVersion: 2
         x: 192
@@ -625,9 +787,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_40
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_40
       rect:
         serializedVersion: 2
         x: 256
@@ -635,9 +800,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_41
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_41
       rect:
         serializedVersion: 2
         x: 320
@@ -645,9 +813,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_42
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_42
       rect:
         serializedVersion: 2
         x: 384
@@ -655,9 +826,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_43
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_43
       rect:
         serializedVersion: 2
         x: 448
@@ -665,9 +839,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_44
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_44
       rect:
         serializedVersion: 2
         x: 0
@@ -675,9 +852,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_45
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_45
       rect:
         serializedVersion: 2
         x: 64
@@ -685,9 +865,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_46
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_46
       rect:
         serializedVersion: 2
         x: 128
@@ -695,9 +878,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_47
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_47
       rect:
         serializedVersion: 2
         x: 192
@@ -705,9 +891,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_48
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_48
       rect:
         serializedVersion: 2
         x: 256
@@ -715,9 +904,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_49
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_49
       rect:
         serializedVersion: 2
         x: 320
@@ -725,9 +917,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_50
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_50
       rect:
         serializedVersion: 2
         x: 384
@@ -735,9 +930,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_51
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_51
       rect:
         serializedVersion: 2
         x: 448
@@ -745,9 +943,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_52
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_52
       rect:
         serializedVersion: 2
         x: 0
@@ -755,9 +956,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_53
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_53
       rect:
         serializedVersion: 2
         x: 64
@@ -765,9 +969,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_54
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_54
       rect:
         serializedVersion: 2
         x: 128
@@ -775,9 +982,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_55
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_55
       rect:
         serializedVersion: 2
         x: 192
@@ -785,9 +995,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_56
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_56
       rect:
         serializedVersion: 2
         x: 256
@@ -795,9 +1008,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_57
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_57
       rect:
         serializedVersion: 2
         x: 320
@@ -805,9 +1021,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_58
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_58
       rect:
         serializedVersion: 2
         x: 384
@@ -815,9 +1034,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_59
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_59
       rect:
         serializedVersion: 2
         x: 448
@@ -825,9 +1047,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_60
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_60
       rect:
         serializedVersion: 2
         x: 0
@@ -835,9 +1060,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_61
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_61
       rect:
         serializedVersion: 2
         x: 64
@@ -845,9 +1073,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_62
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_62
       rect:
         serializedVersion: 2
         x: 128
@@ -855,9 +1086,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_63
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_63
       rect:
         serializedVersion: 2
         x: 192
@@ -865,9 +1099,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_64
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_64
       rect:
         serializedVersion: 2
         x: 256
@@ -875,9 +1112,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_65
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_65
       rect:
         serializedVersion: 2
         x: 320
@@ -885,9 +1125,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_66
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_66
       rect:
         serializedVersion: 2
         x: 384
@@ -895,9 +1138,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_67
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_67
       rect:
         serializedVersion: 2
         x: 448
@@ -905,9 +1151,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_68
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_68
       rect:
         serializedVersion: 2
         x: 512
@@ -915,9 +1164,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_69
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_69
       rect:
         serializedVersion: 2
         x: 0
@@ -925,9 +1177,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_70
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_70
       rect:
         serializedVersion: 2
         x: 64
@@ -935,9 +1190,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_71
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_71
       rect:
         serializedVersion: 2
         x: 128
@@ -945,9 +1203,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_72
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_72
       rect:
         serializedVersion: 2
         x: 192
@@ -955,9 +1216,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_73
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_73
       rect:
         serializedVersion: 2
         x: 256
@@ -965,9 +1229,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_74
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_74
       rect:
         serializedVersion: 2
         x: 320
@@ -975,9 +1242,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_75
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_75
       rect:
         serializedVersion: 2
         x: 384
@@ -985,9 +1255,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_76
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_76
       rect:
         serializedVersion: 2
         x: 448
@@ -995,9 +1268,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_77
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_77
       rect:
         serializedVersion: 2
         x: 512
@@ -1005,9 +1281,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_78
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_78
       rect:
         serializedVersion: 2
         x: 0
@@ -1015,9 +1294,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_79
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_79
       rect:
         serializedVersion: 2
         x: 64
@@ -1025,9 +1307,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_80
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_80
       rect:
         serializedVersion: 2
         x: 128
@@ -1035,9 +1320,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_81
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_81
       rect:
         serializedVersion: 2
         x: 192
@@ -1045,9 +1333,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_82
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_82
       rect:
         serializedVersion: 2
         x: 256
@@ -1055,9 +1346,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_83
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_83
       rect:
         serializedVersion: 2
         x: 320
@@ -1065,9 +1359,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_84
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_84
       rect:
         serializedVersion: 2
         x: 384
@@ -1075,9 +1372,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_85
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_85
       rect:
         serializedVersion: 2
         x: 448
@@ -1085,9 +1385,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_86
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_86
       rect:
         serializedVersion: 2
         x: 512
@@ -1095,9 +1398,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: idleRight
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: idleRight
       rect:
         serializedVersion: 2
         x: 0
@@ -1105,9 +1411,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: walkRight_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: walkRight_1
       rect:
         serializedVersion: 2
         x: 64
@@ -1115,9 +1424,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: walkRight_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: walkRight_2
       rect:
         serializedVersion: 2
         x: 128
@@ -1125,9 +1437,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: walkRight_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: walkRight_3
       rect:
         serializedVersion: 2
         x: 192
@@ -1135,9 +1450,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: walkRight_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: walkRight_4
       rect:
         serializedVersion: 2
         x: 256
@@ -1145,9 +1463,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: walkRight_5
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: walkRight_5
       rect:
         serializedVersion: 2
         x: 320
@@ -1155,9 +1476,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: walkRight_6
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: walkRight_6
       rect:
         serializedVersion: 2
         x: 384
@@ -1165,9 +1489,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: walkRight_7
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: walkRight_7
       rect:
         serializedVersion: 2
         x: 448
@@ -1175,9 +1502,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: walkRight_8
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: walkRight_8
       rect:
         serializedVersion: 2
         x: 512
@@ -1185,9 +1515,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_96
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_96
       rect:
         serializedVersion: 2
         x: 0
@@ -1195,9 +1528,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_97
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_97
       rect:
         serializedVersion: 2
         x: 64
@@ -1205,9 +1541,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_98
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_98
       rect:
         serializedVersion: 2
         x: 128
@@ -1215,9 +1554,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_99
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_99
       rect:
         serializedVersion: 2
         x: 192
@@ -1225,9 +1567,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_100
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_100
       rect:
         serializedVersion: 2
         x: 256
@@ -1235,9 +1580,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_101
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_101
       rect:
         serializedVersion: 2
         x: 320
@@ -1245,9 +1593,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_102
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_102
       rect:
         serializedVersion: 2
         x: 0
@@ -1255,9 +1606,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_103
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_103
       rect:
         serializedVersion: 2
         x: 64
@@ -1265,9 +1619,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_104
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_104
       rect:
         serializedVersion: 2
         x: 128
@@ -1275,9 +1632,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_105
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_105
       rect:
         serializedVersion: 2
         x: 192
@@ -1285,9 +1645,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_106
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_106
       rect:
         serializedVersion: 2
         x: 256
@@ -1295,9 +1658,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_107
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_107
       rect:
         serializedVersion: 2
         x: 320
@@ -1305,9 +1671,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_108
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_108
       rect:
         serializedVersion: 2
         x: 0
@@ -1315,9 +1684,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_109
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_109
       rect:
         serializedVersion: 2
         x: 64
@@ -1325,9 +1697,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_110
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_110
       rect:
         serializedVersion: 2
         x: 128
@@ -1335,9 +1710,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_111
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_111
       rect:
         serializedVersion: 2
         x: 192
@@ -1345,9 +1723,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_112
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_112
       rect:
         serializedVersion: 2
         x: 256
@@ -1355,9 +1736,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_113
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_113
       rect:
         serializedVersion: 2
         x: 320
@@ -1365,9 +1749,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_114
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_114
       rect:
         serializedVersion: 2
         x: 0
@@ -1375,9 +1762,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpRight_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: jumpRight_1
       rect:
         serializedVersion: 2
         x: 64
@@ -1385,9 +1775,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpRight_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: jumpRight_2
       rect:
         serializedVersion: 2
         x: 128
@@ -1395,9 +1788,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpRight_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: jumpRight_3
       rect:
         serializedVersion: 2
         x: 192
@@ -1405,9 +1801,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpRight_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: jumpRight_4
       rect:
         serializedVersion: 2
         x: 256
@@ -1415,9 +1814,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpRight_5
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: jumpRight_5
       rect:
         serializedVersion: 2
         x: 320
@@ -1425,9 +1827,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_120
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_120
       rect:
         serializedVersion: 2
         x: 0
@@ -1435,9 +1840,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_121
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_121
       rect:
         serializedVersion: 2
         x: 64
@@ -1445,9 +1853,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_122
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_122
       rect:
         serializedVersion: 2
         x: 128
@@ -1455,9 +1866,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_123
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_123
       rect:
         serializedVersion: 2
         x: 192
@@ -1465,9 +1879,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_124
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_124
       rect:
         serializedVersion: 2
         x: 256
@@ -1475,9 +1892,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_125
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_125
       rect:
         serializedVersion: 2
         x: 320
@@ -1485,9 +1905,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_126
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_126
       rect:
         serializedVersion: 2
         x: 384
@@ -1495,9 +1918,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_127
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_127
       rect:
         serializedVersion: 2
         x: 448
@@ -1505,9 +1931,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_128
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_128
       rect:
         serializedVersion: 2
         x: 512
@@ -1515,9 +1944,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_129
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_129
       rect:
         serializedVersion: 2
         x: 576
@@ -1525,9 +1957,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_130
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_130
       rect:
         serializedVersion: 2
         x: 640
@@ -1535,9 +1970,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_131
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_131
       rect:
         serializedVersion: 2
         x: 704
@@ -1545,9 +1983,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_132
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_132
       rect:
         serializedVersion: 2
         x: 768
@@ -1555,9 +1996,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_133
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_133
       rect:
         serializedVersion: 2
         x: 0
@@ -1565,9 +2009,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_134
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_134
       rect:
         serializedVersion: 2
         x: 64
@@ -1575,9 +2022,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_135
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_135
       rect:
         serializedVersion: 2
         x: 128
@@ -1585,9 +2035,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_136
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_136
       rect:
         serializedVersion: 2
         x: 192
@@ -1595,9 +2048,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_137
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_137
       rect:
         serializedVersion: 2
         x: 256
@@ -1605,9 +2061,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_138
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_138
       rect:
         serializedVersion: 2
         x: 320
@@ -1615,9 +2074,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_139
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_139
       rect:
         serializedVersion: 2
         x: 384
@@ -1625,9 +2087,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_140
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_140
       rect:
         serializedVersion: 2
         x: 448
@@ -1635,9 +2100,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_141
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_141
       rect:
         serializedVersion: 2
         x: 512
@@ -1645,9 +2113,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_142
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_142
       rect:
         serializedVersion: 2
         x: 576
@@ -1655,9 +2126,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_143
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_143
       rect:
         serializedVersion: 2
         x: 640
@@ -1665,9 +2139,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_144
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_144
       rect:
         serializedVersion: 2
         x: 704
@@ -1675,9 +2152,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_145
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_145
       rect:
         serializedVersion: 2
         x: 768
@@ -1685,9 +2165,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_146
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_146
       rect:
         serializedVersion: 2
         x: 0
@@ -1695,9 +2178,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_147
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_147
       rect:
         serializedVersion: 2
         x: 64
@@ -1705,9 +2191,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_148
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_148
       rect:
         serializedVersion: 2
         x: 128
@@ -1715,9 +2204,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_149
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_149
       rect:
         serializedVersion: 2
         x: 192
@@ -1725,9 +2217,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_150
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_150
       rect:
         serializedVersion: 2
         x: 256
@@ -1735,9 +2230,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_151
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_151
       rect:
         serializedVersion: 2
         x: 320
@@ -1745,9 +2243,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_152
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_152
       rect:
         serializedVersion: 2
         x: 384
@@ -1755,9 +2256,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_153
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_153
       rect:
         serializedVersion: 2
         x: 448
@@ -1765,9 +2269,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_154
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_154
       rect:
         serializedVersion: 2
         x: 512
@@ -1775,9 +2282,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_155
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_155
       rect:
         serializedVersion: 2
         x: 576
@@ -1785,9 +2295,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_156
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_156
       rect:
         serializedVersion: 2
         x: 640
@@ -1795,9 +2308,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_157
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_157
       rect:
         serializedVersion: 2
         x: 704
@@ -1805,9 +2321,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_158
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_158
       rect:
         serializedVersion: 2
         x: 768
@@ -1815,9 +2334,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_159
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_159
       rect:
         serializedVersion: 2
         x: 0
@@ -1825,9 +2347,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_160
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_160
       rect:
         serializedVersion: 2
         x: 64
@@ -1835,9 +2360,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_161
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_161
       rect:
         serializedVersion: 2
         x: 128
@@ -1845,9 +2373,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_162
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_162
       rect:
         serializedVersion: 2
         x: 192
@@ -1855,9 +2386,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_163
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_163
       rect:
         serializedVersion: 2
         x: 256
@@ -1865,9 +2399,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_164
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_164
       rect:
         serializedVersion: 2
         x: 320
@@ -1875,9 +2412,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_165
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_165
       rect:
         serializedVersion: 2
         x: 384
@@ -1885,9 +2425,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_166
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_166
       rect:
         serializedVersion: 2
         x: 448
@@ -1895,9 +2438,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_167
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_167
       rect:
         serializedVersion: 2
         x: 512
@@ -1905,9 +2451,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_168
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_168
       rect:
         serializedVersion: 2
         x: 576
@@ -1915,9 +2464,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_169
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_169
       rect:
         serializedVersion: 2
         x: 640
@@ -1925,9 +2477,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_170
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_170
       rect:
         serializedVersion: 2
         x: 704
@@ -1935,9 +2490,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_171
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_171
       rect:
         serializedVersion: 2
         x: 768
@@ -1945,9 +2503,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_172
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_172
       rect:
         serializedVersion: 2
         x: 0
@@ -1955,9 +2516,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_173
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_173
       rect:
         serializedVersion: 2
         x: 64
@@ -1965,9 +2529,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_174
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_174
       rect:
         serializedVersion: 2
         x: 128
@@ -1975,9 +2542,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_175
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_175
       rect:
         serializedVersion: 2
         x: 192
@@ -1985,9 +2555,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_176
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_176
       rect:
         serializedVersion: 2
         x: 256
@@ -1995,9 +2568,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MaleSpriteSheet - AwesomeInc_177
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MaleSpriteSheet - AwesomeInc_177
       rect:
         serializedVersion: 2
         x: 320
@@ -2005,8 +2581,11 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
