@@ -15,10 +15,6 @@ public class MatchGameController : MonoBehaviour {
     public Text levelText;                      // Text object for the current level
     public Text scoreText;                      // Text object for the player's score
     public Text timeText;                       // Text object for the remaining time
-    public AudioClip matchSound;                // Sound Effect for matching gems
-    public AudioClip play_sfx;
-    public AudioClip select_sfx;
-    public AudioClip lose_sfx;
 
     // Private Attributes
     private GameObject currentIndicator;        // Current indicator
@@ -71,7 +67,7 @@ public class MatchGameController : MonoBehaviour {
 
 	public void Play () {
         if (readyToPlay) {
-            AudioSource.PlayClipAtPoint(play_sfx, Camera.main.transform.position);
+            AudioManager.Instance.PlayAudioClip(AudioManager.Instance.sfxMenuSelect);
 
             PrepareNewGame();
 
@@ -121,7 +117,7 @@ public class MatchGameController : MonoBehaviour {
                     }
 
                     // Set the current indicator
-                    AudioSource.PlayClipAtPoint(select_sfx, Camera.main.transform.position, 0.3f);
+                    AudioManager.Instance.PlayAudioClip(AudioManager.Instance.sfxSelectItem);
                     currentIndicator = GameObject.Instantiate(indicator, new Vector3(hit.transform.position.x,
                                                                                             hit.transform.position.y, -1),
                                                                                             transform.rotation) as GameObject;
@@ -172,7 +168,7 @@ public class MatchGameController : MonoBehaviour {
                     UpdateScore(Matches.Count * scoreIncrement);
 
                     // Play the matching sound
-                    AudioSource.PlayClipAtPoint(matchSound, Camera.main.transform.position, 0.3f);
+                    AudioManager.Instance.PlayAudioClip(AudioManager.Instance.sfxPoint);
 
                     foreach (GameObject go in Matches) {
                         
@@ -212,7 +208,7 @@ public class MatchGameController : MonoBehaviour {
     // Check the timer
     void CheckTimeRemaining() {
         if (timeRemaining <= 0) {
-            AudioSource.PlayClipAtPoint(lose_sfx, Camera.main.transform.position);
+            AudioManager.Instance.PlayAudioClip(AudioManager.Instance.sfxLose);
             gameIsRunning = false;
             readyToPlay = false;
             GameManager.instance.DisplayLosePanel();

@@ -12,7 +12,6 @@ public class Grid : MonoBehaviour {
     public Text levelText;          // Text for current level
     public Text remainingText;      // Text for remaining flags
     public Element[,] elements;     // array to store tiles
-    public AudioClip play_sfx;
 
     // Private Attributes
     private int width = 10;             // width of the grid
@@ -60,7 +59,7 @@ public class Grid : MonoBehaviour {
 
     public void Play() {
         if (readyToPlay) {
-            AudioSource.PlayClipAtPoint(play_sfx, Camera.main.transform.position);
+            AudioManager.Instance.PlayAudioClip(AudioManager.Instance.sfxMenuSelect);
 
             PrepareNewGame();
 

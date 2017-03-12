@@ -16,12 +16,12 @@ public class AudioManager : MonoBehaviour {
 
     // Public Audio Clips
     [Header("UI Audio Clips")]
-    public AudioClip sfxPlay;
     public AudioClip sfxMenuSelect;
-    public AudioClip sfxSelect;
     public AudioClip sfxHighlight;
 
     [Header("Game Manager Audio Clips")]
+    public AudioClip sfxSelectItem;
+    public AudioClip sfxPoint;
     public AudioClip sfxLose; 
     public AudioClip sfxEscape;
 
@@ -30,22 +30,17 @@ public class AudioManager : MonoBehaviour {
 
     [Header("Shop 1 Audio Clips")]
     public AudioClip sfxDealCard;
-    public AudioClip sfxButtonClick;
     public AudioClip sfxUncoverCard;
-    public AudioClip sfxFoundPair;
     public AudioClip sfxNoPair;
 
     [Header("Shop 2 Audio Clips")]
-    public AudioClip sfxMatch;
-    public AudioClip sfxSelectGem;
+    
    
 
     [Header("Shop 3 Audio Clips")]
-    public AudioClip sfxEat;
-    public AudioClip sfxGameOver;
+    public AudioClip sfxCollision;
 
     [Header("Shop 4 Audio Clips")]
-    public AudioClip sfxSelectTile;
     public AudioClip sfxFlagTile;
     public AudioClip sfxSelectMine;
 

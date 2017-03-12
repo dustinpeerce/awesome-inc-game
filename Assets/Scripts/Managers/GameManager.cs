@@ -6,8 +6,6 @@ using System;
 public class GameManager : MonoBehaviour {
 
     public static GameManager instance;
-    public AudioClip menuSelect_sfx;
-    public AudioClip escape_sfx;
 
     // Medal Counter
     public int medals = 0;
@@ -34,15 +32,14 @@ public class GameManager : MonoBehaviour {
     // Player Control Script
     private Platformer2DUserControl playerControlScript;
 
-    void Awake() {
-        if (instance != null && instance != this) {
-            Destroy(this.gameObject);
-            return;
+    private void Awake() {
+        if (instance == null) {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
         }
         else {
-            instance = this;
+            Destroy(gameObject);
         }
-        DontDestroyOnLoad(this.gameObject);
     }
 
     void OnLevelWasLoaded(int level) {
@@ -182,10 +179,10 @@ public class GameManager : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.Escape)) {
             if (Application.loadedLevel == 1) {
                 medals = 0;
-                StartCoroutine(DelayLoadAction(0, escape_sfx));
+                StartCoroutine(DelayLoadAction(0, AudioManager.Instance.sfxEscape));
             }
             else if (Application.loadedLevel != 0) {
-                StartCoroutine(DelayLoadAction(1, escape_sfx));
+                StartCoroutine(DelayLoadAction(1, AudioManager.Instance.sfxEscape));
             }
 		}
 	}
@@ -204,11 +201,11 @@ public class GameManager : MonoBehaviour {
 
     public void CloseEndPanel() {
         medals = 0;
-        StartCoroutine(DelayLoadAction(0, menuSelect_sfx));
+        StartCoroutine(DelayLoadAction(0, AudioManager.Instance.sfxMenuSelect));
     }
 
     public void CloseShopPanels() {
-        AudioSource.PlayClipAtPoint(menuSelect_sfx, Camera.main.transform.position);
+        AudioManager.Instance.PlayAudioClip(AudioManager.Instance.sfxMenuSelect);
 
         gameBeginPanel.SetActive(false);
         gameAdvancedPanel.SetActive(false);
@@ -217,7 +214,7 @@ public class GameManager : MonoBehaviour {
     }
 
     public void CloseHubPanels() {
-        AudioSource.PlayClipAtPoint(menuSelect_sfx, Camera.main.transform.position);
+        AudioManager.Instance.PlayAudioClip(AudioManager.Instance.sfxMenuSelect);
 
         gameBeginPanel.SetActive(false);
         coreValueOnePanel.SetActive(false);
@@ -230,7 +227,7 @@ public class GameManager : MonoBehaviour {
     }
 
     IEnumerator DelayLoadAction(int level, AudioClip soundEffect) {
-        AudioSource.PlayClipAtPoint(soundEffect, Camera.main.transform.position);
+        AudioManager.Instance.PlayAudioClip(soundEffect);
         yield return new WaitForSeconds(0.2f);
 
         if (level == -1)

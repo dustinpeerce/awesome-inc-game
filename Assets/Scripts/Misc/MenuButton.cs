@@ -4,7 +4,6 @@ using System.Collections;
 
 public class MenuButton : MonoBehaviour {
 
-    public AudioClip highlightSFX;
     public Sprite highlightSprite;
 
     void Start() {
@@ -18,7 +17,7 @@ public class MenuButton : MonoBehaviour {
     }
 
     public void MouseEnter() {
-        AudioSource.PlayClipAtPoint(highlightSFX, Camera.main.transform.position);
+        AudioManager.Instance.PlayAudioClip(AudioManager.Instance.sfxHighlight);
         GetComponent<Button>().image.overrideSprite = highlightSprite;
     }
 

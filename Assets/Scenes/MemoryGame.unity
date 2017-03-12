@@ -580,6 +580,48 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1001 &532758754
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4129771756093208, guid: 119ea3583dc1bdc428c37fe6d5dcd496, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129771756093208, guid: 119ea3583dc1bdc428c37fe6d5dcd496, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129771756093208, guid: 119ea3583dc1bdc428c37fe6d5dcd496, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129771756093208, guid: 119ea3583dc1bdc428c37fe6d5dcd496, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129771756093208, guid: 119ea3583dc1bdc428c37fe6d5dcd496, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129771756093208, guid: 119ea3583dc1bdc428c37fe6d5dcd496, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129771756093208, guid: 119ea3583dc1bdc428c37fe6d5dcd496, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129771756093208, guid: 119ea3583dc1bdc428c37fe6d5dcd496, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 119ea3583dc1bdc428c37fe6d5dcd496, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &582481036
 GameObject:
   m_ObjectHideFlags: 0
@@ -718,7 +760,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2ef1b6a53d2129448650a978312adee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  highlightSFX: {fileID: 8300000, guid: 85b8c51d0a99bea4dbbeba83909feb0e, type: 3}
   highlightSprite: {fileID: 21300000, guid: bc4002494a1603c4c951ac283abc3ecd, type: 3}
 --- !u!1 &781702786
 GameObject:
@@ -1479,7 +1520,6 @@ GameObject:
   - component: {fileID: 1293861539}
   - component: {fileID: 1293861538}
   - component: {fileID: 1293861537}
-  - component: {fileID: 1293861536}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -1487,18 +1527,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1293861536
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1293861535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1997211142, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ForceModuleActive: 0
 --- !u!114 &1293861537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1837,12 +1865,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: d50334e6fe97ac5418ef728770118219, type: 3}
   - {fileID: 21300000, guid: 17a23c938d7b67b4eb1c69b5db816c3b, type: 3}
   spriteCardShadow: {fileID: 21300000, guid: 245f1bbf3588e5b4e9f01c584b269074, type: 3}
-  soundDealCard: {fileID: 8300000, guid: dc9e8a6813c0ddb43b3730850b752bc1, type: 3}
-  soundButtonClick: {fileID: 8300000, guid: 1a599b6c5ec0b3142b819189a693a047, type: 3}
-  soundUncoverCard: {fileID: 8300000, guid: 00c8de9a3fc7b7b4f84710fcf8a094e6, type: 3}
-  soundFoundPair: {fileID: 8300000, guid: c59731fe853cf164692b2bd7890bf70f, type: 3}
-  soundNoPair: {fileID: 8300000, guid: 4b5e3e61511d6c842bee76f547d6a79a, type: 3}
-  soundLose: {fileID: 8300000, guid: 4dabc058c8c64a24a9544bafa126a83d, type: 3}
 --- !u!4 &1639344252
 Transform:
   m_ObjectHideFlags: 0
@@ -2334,7 +2356,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2ef1b6a53d2129448650a978312adee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  highlightSFX: {fileID: 8300000, guid: 85b8c51d0a99bea4dbbeba83909feb0e, type: 3}
   highlightSprite: {fileID: 21300000, guid: bc4002494a1603c4c951ac283abc3ecd, type: 3}
 --- !u!1001 &1839880190
 Prefab:
@@ -2515,7 +2536,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2ef1b6a53d2129448650a978312adee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  highlightSFX: {fileID: 8300000, guid: 85b8c51d0a99bea4dbbeba83909feb0e, type: 3}
   highlightSprite: {fileID: 21300000, guid: bc4002494a1603c4c951ac283abc3ecd, type: 3}
 --- !u!1 &1840687469
 GameObject:
@@ -2690,7 +2710,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2ef1b6a53d2129448650a978312adee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  highlightSFX: {fileID: 8300000, guid: 85b8c51d0a99bea4dbbeba83909feb0e, type: 3}
   highlightSprite: {fileID: 21300000, guid: bc4002494a1603c4c951ac283abc3ecd, type: 3}
 --- !u!114 &1895833484
 MonoBehaviour:
@@ -2803,7 +2822,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2ef1b6a53d2129448650a978312adee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  highlightSFX: {fileID: 8300000, guid: 85b8c51d0a99bea4dbbeba83909feb0e, type: 3}
   highlightSprite: {fileID: 21300000, guid: bc4002494a1603c4c951ac283abc3ecd, type: 3}
 --- !u!1 &2011894764
 GameObject:

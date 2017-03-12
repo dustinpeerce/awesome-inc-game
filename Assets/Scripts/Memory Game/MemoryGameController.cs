@@ -13,13 +13,6 @@ public class MemoryGameController : MonoBehaviour {
 	public Sprite[] spriteCardsFront;
 	public Sprite spriteCardShadow;
 
-	public AudioClip soundDealCard;
-	public AudioClip soundButtonClick;
-	public AudioClip soundUncoverCard;
-	public AudioClip soundFoundPair;
-	public AudioClip soundNoPair;
-    public AudioClip soundLose;
-
     // Private Attributes
     private float uncoverTime = 10.0f;      // How fast to uncover a card
     private float dealTime = 8.0f;          // how fast to deal one card
@@ -203,7 +196,7 @@ public class MemoryGameController : MonoBehaviour {
 		for(int i = 0; i < cards.Length; i++) {
 			float t = 0;
 
-            AudioSource.PlayClipAtPoint(soundDealCard, Camera.main.transform.position);
+            AudioManager.Instance.PlayAudioClip(AudioManager.Instance.sfxDealCard);
 
 			while(t < 1f) {
 				t += Time.deltaTime * dealTime;
@@ -237,10 +230,10 @@ public class MemoryGameController : MonoBehaviour {
 		float t = 0;
 		bool uncovered = false;
 
-        AudioSource.PlayClipAtPoint(soundUncoverCard, Camera.main.transform.position);
+        AudioManager.Instance.PlayAudioClip(AudioManager.Instance.sfxUncoverCard);
 
-		// find the shadow for the selected card
-		var shadow = GameObject.FindGameObjectsWithTag("CardShadow").Where(
+        // find the shadow for the selected card
+        var shadow = GameObject.FindGameObjectsWithTag("CardShadow").Where(
 			g => (g.transform.position == card.position + new Vector3(shadOffsetX, shadOffsetY))).FirstOrDefault();
 
 		while(t < 1f) {
@@ -278,16 +271,16 @@ public class MemoryGameController : MonoBehaviour {
 
 				// if they are not equal cover back
 				yield return new WaitForSeconds(checkPairTime);
-                AudioSource.PlayClipAtPoint(soundNoPair, Camera.main.transform.position, 0.5f);
-				StartCoroutine (uncoverCard(selectedCards[0], false));
+                AudioManager.Instance.PlayAudioClip(AudioManager.Instance.sfxNoPair);
+                StartCoroutine (uncoverCard(selectedCards[0], false));
 				StartCoroutine (uncoverCard(selectedCards[1], false));
 			}
 			else {
                 yield return new WaitForSeconds(checkPairTime/2);
-                AudioSource.PlayClipAtPoint(soundFoundPair, Camera.main.transform.position, 0.3f);
+                AudioManager.Instance.PlayAudioClip(AudioManager.Instance.sfxPoint);
 
-				// set as solved
-				selectedCards[0].GetComponent<CardProperties>().Solved = true;
+                // set as solved
+                selectedCards[0].GetComponent<CardProperties>().Solved = true;
 				selectedCards[1].GetComponent<CardProperties>().Solved = true;
 			}
 			selectedCards[0].GetComponent<CardProperties>().Selected = false;
@@ -309,7 +302,7 @@ public class MemoryGameController : MonoBehaviour {
                 }
             }
             else if (totalMoves == maxMoves) {
-                AudioSource.PlayClipAtPoint(soundLose, Camera.main.transform.position);
+                AudioManager.Instance.PlayAudioClip(AudioManager.Instance.sfxLose);
                 isGameOver = true;
                 readyToPlay = false;
                 GameManager.instance.DisplayLosePanel();
@@ -389,8 +382,8 @@ public class MemoryGameController : MonoBehaviour {
     public void Play() {
         if (readyToPlay) {
             if (!(isDealing || isUncovering)) {
-                AudioSource.PlayClipAtPoint(soundButtonClick, Camera.main.transform.position);
-                
+                AudioManager.Instance.PlayAudioClip(AudioManager.Instance.sfxMenuSelect);
+
                 isGameOver = false;
                 PrepareNewGame();
                 CreateDeck();

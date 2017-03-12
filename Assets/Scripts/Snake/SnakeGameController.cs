@@ -16,9 +16,6 @@ public class SnakeGameController : MonoBehaviour {
     public int length = 0;
     public Text levelText;
     public Text lengthText;
-    public AudioClip eatSound;
-    public AudioClip gameOverSound;
-    public AudioClip play_sfx;
 
     // Private Attributes
     private Vector2 dir = Vector2.right;
@@ -85,7 +82,7 @@ public class SnakeGameController : MonoBehaviour {
 
     public void Play() {
         if (readyToPlay) {
-            AudioSource.PlayClipAtPoint(play_sfx, Camera.main.transform.position);
+            AudioManager.Instance.PlayAudioClip(AudioManager.Instance.sfxMenuSelect);
             PrepareNewGame();
 
             gameOver = false;
@@ -175,7 +172,7 @@ public class SnakeGameController : MonoBehaviour {
             // Spawn more food
             spawnerScript.SpawnFood();
             // Play eat sound
-            AudioSource.PlayClipAtPoint(eatSound, Camera.main.transform.position, 0.3f);
+            AudioManager.Instance.PlayAudioClip(AudioManager.Instance.sfxPoint);
         } 
         // Collided with Tail or a Border
         else {
@@ -187,7 +184,7 @@ public class SnakeGameController : MonoBehaviour {
             readyToPlay = false;
 
             // Play gameOverSound
-            AudioSource.PlayClipAtPoint(gameOverSound, Camera.main.transform.position, 0.35f);
+            AudioManager.Instance.PlayAudioClip(AudioManager.Instance.sfxCollision);
 
             GameManager.instance.DisplayLosePanel();
         }

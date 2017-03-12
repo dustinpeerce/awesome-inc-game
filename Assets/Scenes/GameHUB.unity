@@ -858,7 +858,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2ef1b6a53d2129448650a978312adee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  highlightSFX: {fileID: 8300000, guid: 85b8c51d0a99bea4dbbeba83909feb0e, type: 3}
   highlightSprite: {fileID: 21300000, guid: bc4002494a1603c4c951ac283abc3ecd, type: 3}
 --- !u!114 &191631717
 MonoBehaviour:
@@ -1358,7 +1357,6 @@ MonoBehaviour:
   sceneToLoad: Match3
   medalsRequired: 1
   buttonPrompt: {fileID: 2121248464}
-  door_sfx: {fileID: 8300000, guid: 2703ed357151f8b478438ac470a30fd8, type: 3}
 --- !u!61 &245829369
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1936,7 +1934,6 @@ GameObject:
   - component: {fileID: 436866931}
   - component: {fileID: 436866930}
   - component: {fileID: 436866929}
-  - component: {fileID: 436866928}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -1944,18 +1941,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &436866928
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 436866927}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1997211142, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ForceModuleActive: 0
 --- !u!114 &436866929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2528,7 +2513,6 @@ MonoBehaviour:
   sceneToLoad: Snake
   medalsRequired: 2
   buttonPrompt: {fileID: 1050765083}
-  door_sfx: {fileID: 8300000, guid: 2703ed357151f8b478438ac470a30fd8, type: 3}
 --- !u!61 &535304879
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3057,7 +3041,6 @@ MonoBehaviour:
   sceneToLoad: 
   medalsRequired: 4
   buttonPrompt: {fileID: 1232500266}
-  door_sfx: {fileID: 8300000, guid: 2703ed357151f8b478438ac470a30fd8, type: 3}
 --- !u!61 &619448517
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4511,7 +4494,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2ef1b6a53d2129448650a978312adee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  highlightSFX: {fileID: 8300000, guid: 85b8c51d0a99bea4dbbeba83909feb0e, type: 3}
   highlightSprite: {fileID: 21300000, guid: bc4002494a1603c4c951ac283abc3ecd, type: 3}
 --- !u!1 &1042389726
 GameObject:
@@ -5423,7 +5405,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2ef1b6a53d2129448650a978312adee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  highlightSFX: {fileID: 8300000, guid: 85b8c51d0a99bea4dbbeba83909feb0e, type: 3}
   highlightSprite: {fileID: 21300000, guid: bc4002494a1603c4c951ac283abc3ecd, type: 3}
 --- !u!1 &1223874171
 GameObject:
@@ -5923,7 +5904,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2ef1b6a53d2129448650a978312adee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  highlightSFX: {fileID: 8300000, guid: 85b8c51d0a99bea4dbbeba83909feb0e, type: 3}
   highlightSprite: {fileID: 21300000, guid: bc4002494a1603c4c951ac283abc3ecd, type: 3}
 --- !u!1 &1298217515
 GameObject:
@@ -6054,7 +6034,6 @@ MonoBehaviour:
   sceneToLoad: MemoryGame
   medalsRequired: 0
   buttonPrompt: {fileID: 487494077}
-  door_sfx: {fileID: 8300000, guid: 2703ed357151f8b478438ac470a30fd8, type: 3}
 --- !u!61 &1317984983
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6357,6 +6336,48 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 322cf56fcb251a242a1bfee15e266f09, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1358852645
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4129771756093208, guid: 119ea3583dc1bdc428c37fe6d5dcd496, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129771756093208, guid: 119ea3583dc1bdc428c37fe6d5dcd496, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129771756093208, guid: 119ea3583dc1bdc428c37fe6d5dcd496, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129771756093208, guid: 119ea3583dc1bdc428c37fe6d5dcd496, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129771756093208, guid: 119ea3583dc1bdc428c37fe6d5dcd496, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129771756093208, guid: 119ea3583dc1bdc428c37fe6d5dcd496, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129771756093208, guid: 119ea3583dc1bdc428c37fe6d5dcd496, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129771756093208, guid: 119ea3583dc1bdc428c37fe6d5dcd496, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 119ea3583dc1bdc428c37fe6d5dcd496, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1360817987
 GameObject:
@@ -6875,7 +6896,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2ef1b6a53d2129448650a978312adee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  highlightSFX: {fileID: 8300000, guid: 85b8c51d0a99bea4dbbeba83909feb0e, type: 3}
   highlightSprite: {fileID: 21300000, guid: bc4002494a1603c4c951ac283abc3ecd, type: 3}
 --- !u!114 &1515863810
 MonoBehaviour:
@@ -8227,7 +8247,6 @@ MonoBehaviour:
   sceneToLoad: Minesweeper
   medalsRequired: 3
   buttonPrompt: {fileID: 1840342360}
-  door_sfx: {fileID: 8300000, guid: 2703ed357151f8b478438ac470a30fd8, type: 3}
 --- !u!61 &1749538292
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9081,7 +9100,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2ef1b6a53d2129448650a978312adee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  highlightSFX: {fileID: 8300000, guid: 85b8c51d0a99bea4dbbeba83909feb0e, type: 3}
   highlightSprite: {fileID: 21300000, guid: bc4002494a1603c4c951ac283abc3ecd, type: 3}
 --- !u!1 &2004534096
 GameObject:

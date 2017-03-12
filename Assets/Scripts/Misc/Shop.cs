@@ -7,7 +7,6 @@ public class Shop : MonoBehaviour {
     public string sceneToLoad;
     public int medalsRequired = 0;
     public GameObject buttonPrompt;
-    public AudioClip door_sfx;
 
     private bool isActive = false;
     private bool isBouncing = false;
@@ -50,7 +49,7 @@ public class Shop : MonoBehaviour {
     }
 
     IEnumerator DelayDoorAction() {
-        AudioSource.PlayClipAtPoint(door_sfx, Camera.main.transform.position, 0.3f);
+        AudioManager.Instance.PlayAudioClip(AudioManager.Instance.sfxDoor);
         yield return new WaitForSeconds(0.35f);
 
         if (sceneToLoad == "") {

@@ -9,9 +9,6 @@ public class Element : MonoBehaviour {
     public Sprite[] emptySprites;
     public Sprite mineSprite;
     public Sprite flagSprite;
-    public AudioClip selectTile_sfx;
-    public AudioClip flagTile_sfx;
-    public AudioClip selectMine_sfx;
 
     private Sprite defaultSprite;
 
@@ -58,7 +55,7 @@ public class Element : MonoBehaviour {
 
                 // It's a mine
                 if (isMine) {
-                    AudioSource.PlayClipAtPoint(selectMine_sfx, Camera.main.transform.position);
+                    AudioManager.Instance.PlayAudioClip(AudioManager.Instance.sfxSelectMine);
 
                     // Uncover all the mines
                     Grid.instance.uncoverMines();
@@ -68,7 +65,7 @@ public class Element : MonoBehaviour {
                 }
                 // It's not a mine
                 else {
-                    AudioSource.PlayClipAtPoint(selectTile_sfx, Camera.main.transform.position, 0.3f);
+                    AudioManager.Instance.PlayAudioClip(AudioManager.Instance.sfxSelectItem);
 
                     // Show adjacent mine count
                     int x = (int)transform.position.x;
@@ -101,13 +98,13 @@ public class Element : MonoBehaviour {
             if (Input.GetMouseButtonDown(1)) {
                 if (isCovered() && !isFlagged()) {
                     if (Grid.instance.RemainingFlags > 0) {
-                        AudioSource.PlayClipAtPoint(flagTile_sfx, Camera.main.transform.position, 0.3f);
+                        AudioManager.Instance.PlayAudioClip(AudioManager.Instance.sfxFlagTile);
                         GetComponent<SpriteRenderer>().sprite = flagSprite;
                         Grid.instance.RemainingFlags--;
                     }
                 }
                 else if (isFlagged()) {
-                    AudioSource.PlayClipAtPoint(flagTile_sfx, Camera.main.transform.position, 0.3f);
+                    AudioManager.Instance.PlayAudioClip(AudioManager.Instance.sfxFlagTile);
                     GetComponent<SpriteRenderer>().sprite = defaultSprite;
                     Grid.instance.RemainingFlags++;
                 }

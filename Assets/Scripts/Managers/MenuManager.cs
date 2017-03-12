@@ -3,8 +3,6 @@ using System.Collections;
 using UnityEngine.UI;
 
 public class MenuManager : MonoBehaviour {
-
-	public AudioClip menuSelect_sfx;
 	
 
     public void StartGame() {
@@ -16,7 +14,7 @@ public class MenuManager : MonoBehaviour {
     }
 
 	IEnumerator DelayMenuAction(int level) {
-        AudioSource.PlayClipAtPoint(menuSelect_sfx, Camera.main.transform.position);
+        AudioManager.Instance.PlayAudioClip(AudioManager.Instance.sfxMenuSelect);
 		yield return new WaitForSeconds(0.2f);
 
         if (level == -1) {
