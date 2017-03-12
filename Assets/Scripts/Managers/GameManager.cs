@@ -98,7 +98,7 @@ public class GameManager : MonoBehaviour {
                     gameEndPanel.SetActive(false);
                     gameAdvancedPanel.SetActive(false);
 
-                    housePieces[0].SetActive(true);
+                    housePieces[0].SetActive(false);
                     housePieces[1].SetActive(true);
                     housePieces[2].SetActive(false);
                     housePieces[3].SetActive(false);
@@ -112,8 +112,8 @@ public class GameManager : MonoBehaviour {
                     gameEndPanel.SetActive(false);
                     gameAdvancedPanel.SetActive(false);
 
-                    housePieces[0].SetActive(true);
-                    housePieces[1].SetActive(true);
+                    housePieces[0].SetActive(false);
+                    housePieces[1].SetActive(false);
                     housePieces[2].SetActive(true);
                     housePieces[3].SetActive(false);
                     break;
@@ -126,9 +126,9 @@ public class GameManager : MonoBehaviour {
                     gameEndPanel.SetActive(false);
                     gameAdvancedPanel.SetActive(false);
 
-                    housePieces[0].SetActive(true);
-                    housePieces[1].SetActive(true);
-                    housePieces[2].SetActive(true);
+                    housePieces[0].SetActive(false);
+                    housePieces[1].SetActive(false);
+                    housePieces[2].SetActive(false);
                     housePieces[3].SetActive(true);
                     break;
                 default:
@@ -140,9 +140,9 @@ public class GameManager : MonoBehaviour {
                     gameEndPanel.SetActive(false);
                     gameAdvancedPanel.SetActive(false);
 
-                    housePieces[0].SetActive(true);
-                    housePieces[1].SetActive(true);
-                    housePieces[2].SetActive(true);
+                    housePieces[0].SetActive(false);
+                    housePieces[1].SetActive(false);
+                    housePieces[2].SetActive(false);
                     housePieces[3].SetActive(true);
 
                     if (advancedMedalOne && advancedMedalTwo && advancedMedalThree && advancedMedalFour) {

@@ -44,12 +44,17 @@ public class PlatformerCharacter2D : MonoBehaviour
         }
         m_Anim.SetBool("Ground", m_Grounded);
 
+        // Switch to default layer
+        if (m_Grounded && gameObject.layer != GameVals.defaultLayerIndex) {
+            gameObject.layer = GameVals.defaultLayerIndex;
+        }
+
         // Set the vertical animation
         m_Anim.SetFloat("vSpeed", m_Rigidbody2D.velocity.y);
     }
 
 
-    public void Move(float move, bool crouch, bool jump)
+    public void Move(float move, bool crouch, bool jump, bool drop)
     {
         // If crouching, check to see if the character can stand up
         if (!crouch && m_Anim.GetBool("Crouch"))
@@ -96,6 +101,11 @@ public class PlatformerCharacter2D : MonoBehaviour
             m_Grounded = false;
             m_Anim.SetBool("Ground", false);
             m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+        }
+        // If the player should drop
+        else if (m_Grounded && drop && m_Anim.GetBool("Ground")) {
+            m_Grounded = false;
+            gameObject.layer = GameVals.droppingLayerIndex;
         }
     }
 

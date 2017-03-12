@@ -8,6 +8,7 @@ public class Platformer2DUserControl : MonoBehaviour
 {
     private PlatformerCharacter2D m_Character;
     private bool m_Jump;
+    private bool m_Drop;
 
 
     private void Awake()
@@ -23,6 +24,10 @@ public class Platformer2DUserControl : MonoBehaviour
             // Read the jump input in Update so button presses aren't missed.
             m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
         }
+
+        if (!m_Drop) {
+            m_Drop = CrossPlatformInputManager.GetAxis("Vertical") < 0;
+        }
     }
 
 
@@ -33,8 +38,9 @@ public class Platformer2DUserControl : MonoBehaviour
         bool crouch = false;
         float h = CrossPlatformInputManager.GetAxis("Horizontal");
         // Pass all parameters to the character control script.
-        m_Character.Move(h, crouch, m_Jump);
+        m_Character.Move(h, crouch, m_Jump, m_Drop);
         m_Jump = false;
+        m_Drop = false;
     }
 }
 
