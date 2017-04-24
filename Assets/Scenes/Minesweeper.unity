@@ -213,6 +213,52 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 944455496}
   m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+--- !u!1001 &755569998
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 439682, guid: 466c25e169b9a67409c14cc2afa9dc6f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 439682, guid: 466c25e169b9a67409c14cc2afa9dc6f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 439682, guid: 466c25e169b9a67409c14cc2afa9dc6f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 439682, guid: 466c25e169b9a67409c14cc2afa9dc6f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 439682, guid: 466c25e169b9a67409c14cc2afa9dc6f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 439682, guid: 466c25e169b9a67409c14cc2afa9dc6f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 439682, guid: 466c25e169b9a67409c14cc2afa9dc6f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 439682, guid: 466c25e169b9a67409c14cc2afa9dc6f, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 11419866, guid: 466c25e169b9a67409c14cc2afa9dc6f, type: 2}
+      propertyPath: medals
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 466c25e169b9a67409c14cc2afa9dc6f, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &866109572
 GameObject:
   m_ObjectHideFlags: 0

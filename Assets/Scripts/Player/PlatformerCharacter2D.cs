@@ -18,6 +18,8 @@ public class PlatformerCharacter2D : MonoBehaviour
     private Animator m_Anim;            // Reference to the player's animator component.
     private Rigidbody2D m_Rigidbody2D;
     private bool m_FacingRight = true;  // For determining which way the player is currently facing.
+    private Vector3 startPosition;
+    private float timeSinceLastDrop;
 
     private void Awake()
     {
@@ -26,6 +28,8 @@ public class PlatformerCharacter2D : MonoBehaviour
         m_CeilingCheck = transform.Find("CeilingCheck");
         m_Anim = GetComponent<Animator>();
         m_Rigidbody2D = GetComponent<Rigidbody2D>();
+        startPosition = transform.position;
+        timeSinceLastDrop = 0;
     }
 
 
@@ -36,21 +40,27 @@ public class PlatformerCharacter2D : MonoBehaviour
 
         // The player is grounded if a circlecast to the groundcheck position hits anything designated as ground
         // This can be done using layers instead but Sample Assets will not overwrite your project settings.
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
-        for (int i = 0; i < colliders.Length; i++)
-        {
-            if (colliders[i].gameObject != gameObject)
-                m_Grounded = true;
+        if (gameObject.layer == GameVals.defaultLayerIndex || (gameObject.layer == GameVals.droppingLayerIndex && Time.time - timeSinceLastDrop > 0.2f)) {
+            Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
+            for (int i = 0; i < colliders.Length; i++) {
+                if (colliders[i].gameObject != gameObject)
+                    m_Grounded = true;
+            }
         }
         m_Anim.SetBool("Ground", m_Grounded);
 
         // Switch to default layer
         if (m_Grounded && gameObject.layer != GameVals.defaultLayerIndex) {
             gameObject.layer = GameVals.defaultLayerIndex;
+            timeSinceLastDrop = 0;
         }
 
         // Set the vertical animation
         m_Anim.SetFloat("vSpeed", m_Rigidbody2D.velocity.y);
+
+        if (transform.position.y < -2f) {
+            transform.position = startPosition;
+        }
     }
 
 
@@ -104,7 +114,7 @@ public class PlatformerCharacter2D : MonoBehaviour
         }
         // If the player should drop
         else if (m_Grounded && drop && m_Anim.GetBool("Ground")) {
-            m_Grounded = false;
+            timeSinceLastDrop = Time.time;
             gameObject.layer = GameVals.droppingLayerIndex;
         }
     }

@@ -20176,32 +20176,7 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8211576, guid: 466c25e169b9a67409c14cc2afa9dc6f, type: 2}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 6bfc2cc3301f63c4e9f3a188a5340cfc, type: 3}
-    - target: {fileID: 8211576, guid: 466c25e169b9a67409c14cc2afa9dc6f, type: 2}
-      propertyPath: m_Volume
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 11419866, guid: 466c25e169b9a67409c14cc2afa9dc6f, type: 2}
-      propertyPath: medals
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8211576, guid: 466c25e169b9a67409c14cc2afa9dc6f, type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8211576, guid: 466c25e169b9a67409c14cc2afa9dc6f, type: 2}
-      propertyPath: panLevelCustomCurve.m_RotationOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8211576, guid: 466c25e169b9a67409c14cc2afa9dc6f, type: 2}
-      propertyPath: reverbZoneMixCustomCurve.m_RotationOrder
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 8211576, guid: 466c25e169b9a67409c14cc2afa9dc6f, type: 2}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 466c25e169b9a67409c14cc2afa9dc6f, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &2096578607

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using System.Collections;
 using System;
 
@@ -42,8 +43,16 @@ public class GameManager : MonoBehaviour {
         }
     }
 
-    void OnLevelWasLoaded(int level) {
-        if (level == 1) {
+    void OnEnable() {
+        SceneManager.sceneLoaded += OnLevelFinishedLoading;
+    }
+
+    void OnDisable() {
+        SceneManager.sceneLoaded -= OnLevelFinishedLoading;
+    }
+
+    void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode) {
+        if (scene.buildIndex == 1) {
             playerControlScript = GameObject.FindGameObjectWithTag("Player").GetComponent<Platformer2DUserControl>();
 
             gameBeginPanel = GameObject.Find("GameBeginPanel");
@@ -155,7 +164,7 @@ public class GameManager : MonoBehaviour {
                     break;
             }
         }
-        else if (level != 0) {
+        else if (scene.buildIndex != 0) {
             gameBeginPanel = GameObject.Find("GameBeginPanel");
             gameEndPanel = GameObject.Find("GameEndPanel");
             gameAdvancedPanel = GameObject.Find("GameAdvancedPanel");
@@ -177,11 +186,11 @@ public class GameManager : MonoBehaviour {
 
 	void Update() {
 		if (Input.GetKeyDown (KeyCode.Escape)) {
-            if (Application.loadedLevel == 1) {
+            if (SceneManager.GetActiveScene().buildIndex == 1) {
                 medals = 0;
                 StartCoroutine(DelayLoadAction(0, AudioManager.Instance.sfxEscape));
             }
-            else if (Application.loadedLevel != 0) {
+            else if (SceneManager.GetActiveScene().buildIndex != 0) {
                 StartCoroutine(DelayLoadAction(1, AudioManager.Instance.sfxEscape));
             }
 		}
@@ -233,7 +242,7 @@ public class GameManager : MonoBehaviour {
         if (level == -1)
             Application.Quit();
         else
-            Application.LoadLevel(level);
+            SceneManager.LoadScene(level);
     }
 
     public int Medals {
