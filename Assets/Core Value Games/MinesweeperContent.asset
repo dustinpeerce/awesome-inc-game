@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c05aca3996d3df940b86500e7d998c50, type: 3}
+  m_Name: MinesweeperContent
+  m_EditorClassIdentifier: 
+  gameTitle: Mine Sweeper
+  sceneName: Minesweeper
+  gameBeginParagraph: "Your house is looking impressive, but you still need the defining
+    touches. The decorations in a house are a reflection of your personality. It\u2019s
+    only when a person feels cornered that their true personality is revealed. I need
+    to see how you react when put in a stressful situation, so let\u2019s sweep for
+    mines!"
+  gameEndParagraph: Did you feel the tension? Sometimes when you're sweeping for mines,
+    you have to make a gut-decision. Being yourself means following your own intuition.
+    Now that I have a better understanding of your character, I'll help finish your
+    house.
+  gameLoseParagraph: Sweeping for mines is a dangerous gig. Don't lose faith though,
+    you can do it! Try again when you're ready.
+  controlsImage:
+  - {fileID: 21300000, guid: d438ec4faf5857247867db534dc13973, type: 3}
+  - {fileID: 21300000, guid: 030d7613e152f0d419d1150604a2bbad, type: 3}
+  controlsText:
+  - Uncover
+  - Flag
+  instructionsParagraph: 'Uncover every tile that is NOT a mine.
+
+
+    When you uncover a tile, it will show a number that represents the number of mines
+    touching that space.
+
+
+    If you pinpoint the location of a mine, you can place a flag on that tile as a
+    reminder.'

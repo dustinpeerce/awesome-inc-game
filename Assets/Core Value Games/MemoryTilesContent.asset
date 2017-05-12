@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c05aca3996d3df940b86500e7d998c50, type: 3}
+  m_Name: MemoryTilesContent
+  m_EditorClassIdentifier: 
+  gameTitle: Memory Tiles
+  sceneName: MemoryGame
+  gameBeginParagraph: I can build the base of your house. Unfortunately, my exotic
+    pets have escaped their enclosures and I can't do anything until they are returned.
+    Please help me organize the animals into pairs.
+  gameEndParagraph: Thank you so much! I knew from the moment I saw you that you were
+    a good, selfless person. There should be more people like you, who use their life
+    to benefit the world. I'm happy to build the foundation for your house.
+  gameLoseParagraph: Some of the pets got away because you took too long. It's okay,
+    I'll get them myself. Try finding the next batch.
+  controlsImage:
+  - {fileID: 21300000, guid: d438ec4faf5857247867db534dc13973, type: 3}
+  controlsText:
+  - Select
+  instructionsParagraph: 'Select two cards that have the same animal and you score
+    a point!
+
+
+    The goal is to find all of the pairs, but you only have a limited amount of moves
+    to make!'

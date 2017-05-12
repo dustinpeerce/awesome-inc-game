@@ -33,6 +33,14 @@ public class GameManager : MonoBehaviour {
     // Player Control Script
     private Platformer2DUserControl playerControlScript;
 
+    public CoreValueGame[] coreValueOneGames;
+    public CoreValueGame[] coreValueTwoGames;
+    public CoreValueGame[] coreValueThreeGames;
+    public CoreValueGame[] coreValueFourGames;
+
+    private CoreValueGame[] coreValueGames;
+
+
     private void Awake() {
         if (instance == null) {
             instance = this;
@@ -268,5 +276,10 @@ public class GameManager : MonoBehaviour {
     public bool AdvancedMedalFour {
         get { return advancedMedalFour; }
         set { advancedMedalFour = value; }
+    }
+
+    public CoreValueGame[] CoreValueGames
+    {
+        get { return coreValueGames; }
     }
 }

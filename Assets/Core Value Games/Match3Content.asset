@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c05aca3996d3df940b86500e7d998c50, type: 3}
+  m_Name: Match3Content
+  m_EditorClassIdentifier: 
+  gameTitle: Match 3
+  sceneName: Match3
+  gameBeginParagraph: It looks like your house needs some walls. I make excellent
+    walls, but only for excellent people. To prove your dedication to excellence,
+    I challenge you to play my tile-matching game. The goal is to form chains of the
+    same color. You have a time limit, so do your best!
+  gameEndParagraph: That was an excellent display! You shouldn't accept anything less
+    when you set out to achieve something. I will build your walls, and they will
+    be as excellent as you are.
+  gameLoseParagraph: You'll have to be faster than that. Try again when you're ready.
+  controlsImage:
+  - {fileID: 21300000, guid: d438ec4faf5857247867db534dc13973, type: 3}
+  controlsText:
+  - Select
+  instructionsParagraph: 'Select two gems to swap their places. You score points by
+    linking 3 or more of the same gem together.
+
+
+    The link has to be horizontal or vertical.
+
+
+    Try to score the specified amount of points within the time limit!'

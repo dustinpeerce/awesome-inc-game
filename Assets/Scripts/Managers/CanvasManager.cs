@@ -8,54 +8,22 @@ public class CanvasManager : MonoBehaviour {
 
     public static CanvasManager Instance;
 
+    public class CoreValueGameCanvas
+    {
 
-    [System.Serializable]
-    public class CanvasManagerGeneral{
-        public GameObject container;
+        public GameObject panel;
+        public Text gameTitleText;
+        public Text instructionsText;
+        public Image[] controlsImage;
+        public Text[] controlsText;
 
-    } public CanvasManagerGeneral canvasManagerGeneral;
+    } private CoreValueGameCanvas coreValueGameCanvas = new CoreValueGameCanvas();
 
+    
 
-    [System.Serializable]
-    public class CanvasManagerMainMenu {
-        public GameObject container;
+    private CoreValueGame[] coreValueGames;
 
-    } public CanvasManagerMainMenu canvasManagerMainMenu;
-
-
-    [System.Serializable]
-    public class CanvasManagerHub {
-        public GameObject container;
-
-    } public CanvasManagerHub canvasManagerHub;
-
-
-    [System.Serializable]
-    public class CanvasManagerMemory {
-        public GameObject container;
-
-    } public CanvasManagerMemory canvasManagerMemory;
-
-
-    [System.Serializable]
-    public class CanvasManagerMatch {
-        public GameObject container;
-
-    } public CanvasManagerMatch canvasManagerMatch;
-
-
-    [System.Serializable]
-    public class CanvasManagerSnake {
-        public GameObject container;
-
-    } public CanvasManagerSnake canvasManagerSnake;
-
-
-    [System.Serializable]
-    public class CanvasManagerMinesweeper {
-        public GameObject container;
-
-    } public CanvasManagerMinesweeper canvasManagerMinesweeper;
+    
 
 
     private void Awake() {
@@ -68,7 +36,7 @@ public class CanvasManager : MonoBehaviour {
         }
     }
 
-    /*
+
     void OnEnable() {
         SceneManager.sceneLoaded += OnLevelFinishedLoading;
     }
@@ -80,46 +48,53 @@ public class CanvasManager : MonoBehaviour {
     void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode) {
         ResetCanvas();
         
-        switch (scene.buildIndex) {
-            case 0:
-                canvasManagerMainMenu.container.SetActive(true);
-                break;
-            case 1:
-                canvasManagerGeneral.container.SetActive(true);
-                canvasManagerHub.container.SetActive(true);
-                break;
-            case 2:
-                canvasManagerGeneral.container.SetActive(true);
-                canvasManagerMemory.container.SetActive(true);
-                break;
-            case 3:
-                canvasManagerGeneral.container.SetActive(true);
-                canvasManagerMatch.container.SetActive(true);
-                break;
-            case 4:
-                canvasManagerGeneral.container.SetActive(true);
-                canvasManagerSnake.container.SetActive(true);
-                break;
-            case 5:
-                canvasManagerGeneral.container.SetActive(true);
-                canvasManagerMinesweeper.container.SetActive(true);
-                break;
-            default:
-                Debug.LogError("Canvas Manager: Unknown Scene");
-                break;
-        }
+        
     }
-    */
+
 
     private void ResetCanvas() {
-        canvasManagerGeneral.container.SetActive(false);
-        canvasManagerMainMenu.container.SetActive(false);
-        canvasManagerHub.container.SetActive(false);
-        canvasManagerMemory.container.SetActive(false);
-        canvasManagerMatch.container.SetActive(false);
-        canvasManagerSnake.container.SetActive(false);
-        canvasManagerMinesweeper.container.SetActive(false);
+        coreValueGameCanvas.panel.SetActive(false);
     }
 
+
+    public void DrawGamePanel(CoreValueGame game)
+    {
+        coreValueGameCanvas.gameTitleText.text = game.gameTitle;
+        coreValueGameCanvas.instructionsText.text = game.instructionsParagraph;
+        
+        // Set the Controls images
+        if (game.controlsImage.Length > 0)
+        {
+            if (game.controlsImage.Length > 1)
+            {
+                // Set the left and right images (we have two sprites for controls)
+                coreValueGameCanvas.controlsImage[1].sprite = game.controlsImage[0];
+                coreValueGameCanvas.controlsImage[2].sprite = game.controlsImage[1];
+            }
+            else
+            {
+                // Set the fullwidth image (we have only one sprite for controls)
+                coreValueGameCanvas.controlsImage[0].sprite = game.controlsImage[0];
+            }
+        }
+
+        // Set the Controls text labels
+        if (game.controlsText.Length > 0)
+        {
+            if (game.controlsText.Length > 1)
+            {
+                // Set the left and right text elements (we have two text labels for controls)
+                coreValueGameCanvas.controlsText[1].text = game.controlsText[0];
+                coreValueGameCanvas.controlsText[2].text = game.controlsText[1];
+            }
+            else
+            {
+                // Set the fullwidth text element (we have only one text label for controls)
+                coreValueGameCanvas.controlsText[0].text = game.controlsText[0];
+            }
+        }
+
+        coreValueGameCanvas.panel.SetActive(true);
+    }
     
 }

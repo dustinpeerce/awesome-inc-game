@@ -41,6 +41,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   medals: 0
+  coreValueOneGames:
+  - {fileID: 11400000, guid: 6e45158493c94f7409088f4434d8e17a, type: 2}
+  coreValueTwoGames:
+  - {fileID: 11400000, guid: 42dd48843443a7e45a7a0e762fd46795, type: 2}
+  coreValueThreeGames:
+  - {fileID: 11400000, guid: 70f7ad4c67815064f8ece62976d6ea45, type: 2}
+  coreValueFourGames: []
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

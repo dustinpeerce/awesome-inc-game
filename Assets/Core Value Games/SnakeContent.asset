@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c05aca3996d3df940b86500e7d998c50, type: 3}
+  m_Name: SnakeContent
+  m_EditorClassIdentifier: 
+  gameTitle: Snake
+  sceneName: Snake
+  gameBeginParagraph: I can build your roof, which will make your house more comfortable.
+    But first, I need you to help a friend of mine. Show them how to build a positive
+    environment for their clients. Navigating social situations requires finesse.
+    As you make connections, it becomes harder to navigate.
+  gameEndParagraph: You really know how to bring the fun! You definitely deserve a
+    supportive roof for your house. My friend is very grateful as well and agreed
+    to help me install the roof. That's why building positive bonds is important,
+    as it creates a network of collaboration.
+  gameLoseParagraph: That's unfortunate. You have to be quick and responsive when
+    dealing with people. Try again when you're ready.
+  controlsImage:
+  - {fileID: 21300000, guid: 8a05046a59e428345b5fc0898e62da4e, type: 3}
+  controlsText:
+  - Move
+  instructionsParagraph: 'Navigate to each point to increase your length.
+
+
+    You can''t move backwards, because you have to avoid your tail!
+
+
+    You must reach the specified length without any collisions.'
