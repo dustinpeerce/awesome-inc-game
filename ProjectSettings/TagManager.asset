@@ -9,6 +9,7 @@ TagManager:
   - Destination
   - House
   - Medal
+  - Chimney
   layers:
   - Default
   - TransparentFX

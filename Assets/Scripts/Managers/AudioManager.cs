@@ -56,8 +56,8 @@ public class AudioManager : MonoBehaviour {
             Instance = this;
             DontDestroyOnLoad(gameObject);
 
-            musicVolume = PlayerPrefs.GetFloat(GameVals.musicVolumeKey, 1);
-            audioClipVolume = PlayerPrefs.GetFloat(GameVals.audioClipVolumeKey, 1);
+            musicVolume = PlayerPrefs.GetFloat(GameVals.Settings.musicVolumeKey, 1);
+            audioClipVolume = PlayerPrefs.GetFloat(GameVals.Settings.audioClipVolumeKey, 1);
         }
         else {
             Destroy(gameObject);

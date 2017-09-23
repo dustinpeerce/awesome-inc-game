@@ -47,7 +47,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 42dd48843443a7e45a7a0e762fd46795, type: 2}
   coreValueThreeGames:
   - {fileID: 11400000, guid: 70f7ad4c67815064f8ece62976d6ea45, type: 2}
-  coreValueFourGames: []
+  coreValueFourGames:
+  - {fileID: 11400000, guid: 78bef8709cdbede4ab5260702724b451, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

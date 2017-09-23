@@ -46,14 +46,14 @@ public class CanvasManager : MonoBehaviour {
     }
 
     void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode) {
-        ResetCanvas();
+        //ResetCanvas();
         
         
     }
 
 
     private void ResetCanvas() {
-        coreValueGameCanvas.panel.SetActive(false);
+        //coreValueGameCanvas.panel.SetActive(false);
     }
 
 
